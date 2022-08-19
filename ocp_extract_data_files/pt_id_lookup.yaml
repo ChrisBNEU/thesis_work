@@ -1,0 +1,1204 @@
+34477:
+- '*OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+46322:
+- '*O'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+47598:
+- '*CH2OH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+59447:
+- '*CH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+67789:
+- '*OCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+78951:
+- '*C'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+82475:
+- '*O'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+190128:
+- '*CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+216531:
+- '*CO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+230439:
+- '*CO'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+445699:
+- '*CHCO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+447248:
+- '*CHOHCH2OH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+450702:
+- '*CCH3'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+471459:
+- '*CCHO'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+473096:
+- '*COH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+482999:
+- '*COCH2O'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+503694:
+- '*CHCHOH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+510773:
+- '*N*NH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+517299:
+- '*COCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+521971:
+- '*COH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+537337:
+- '*CHOCHOH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+555715:
+- '*CN'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+561312:
+- '*COCH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+561890:
+- '*CHOHCHOH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+586698:
+- CH2*CO
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+588247:
+- '*CHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+592969:
+- '*CH2CH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+598068:
+- '*CCH2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+605862:
+- '*CN'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+622489:
+- '*ONNO2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+627527:
+- '*CCHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+658002:
+- '*CN'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+666198:
+- '*ONNO2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+673039:
+- CH2*CO
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+681593:
+- '*OCH2CH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+686405:
+- '*OH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+692775:
+- '*NO3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+708348:
+- '*ONH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+729644:
+- '*N2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+737038:
+- '*COHCHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+742170:
+- '*COHCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+785501:
+- '*CHCH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+788469:
+- '*NH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+804657:
+- '*CHCO'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+838049:
+- '*OCHCH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+848385:
+- '*COCH2OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+852659:
+- '*NH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+879628:
+- '*COHCH2OH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+887616:
+- '*CHOCH2OH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+889879:
+- '*CCH2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+902416:
+- '*CH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+928414:
+- '*NNCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+935489:
+- '*ONNH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+945462:
+- '*OHCH2CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+957447:
+- '*OHCH2CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+965874:
+- '*COHCOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+982706:
+- '*CHOCH2OH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+986470:
+- '*CHOHCH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1012082:
+- '*CCH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1033064:
+- '*OHNNCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1055747:
+- '*CCHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1122410:
+- '*C'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1137327:
+- '*N'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1153752:
+- '*COHCH2OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1162276:
+- '*ONOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1181580:
+- '*CO'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1184103:
+- '*CCO'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1196953:
+- '*NH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1204979:
+- '*CCHO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1205405:
+- '*CHOHCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1207446:
+- '*NONH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1213253:
+- '*CCH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1213955:
+- '*CHCHO'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1214364:
+- '*CCH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1218847:
+- '*CHCHOH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1225869:
+- '*COHCH3'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1253129:
+- '*ONH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1277840:
+- '*NO3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1280110:
+- '*CHCH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1307365:
+- '*CHCHOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1307839:
+- '*N'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1309565:
+- '*OCH3'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1357148:
+- '*COCHO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1368686:
+- '*NNCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1371083:
+- '*NH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1379916:
+- '*OH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1382580:
+- '*CCHO'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1462053:
+- '*CHO'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1465357:
+- '*ONNH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1466928:
+- '*ONOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1468949:
+- '*COCH2OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1510334:
+- '*CH*COH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1517784:
+- '*CH2*O'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1522797:
+- '*CH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1526239:
+- '*CCH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1558922:
+- '*CCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1565541:
+- '*N2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1587366:
+- '*COCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1596959:
+- '*CHOCH2OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1620320:
+- '*ONNO2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1623593:
+- '*CCH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1638069:
+- '*OCHCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1641705:
+- '*CHCHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1657526:
+- '*CH2*O'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1657931:
+- '*CN'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1658702:
+- '*CCHOH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1672599:
+- '*CH*COH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1681043:
+- '*CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1682878:
+- '*CHCH2OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1723273:
+- '*CH4'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1723767:
+- '*CN'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1726767:
+- '*CH*CH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1736890:
+- '*CH*COH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1750540:
+- '*C*C'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1759167:
+- CH2*CO
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1773946:
+- '*NO2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1791752:
+- '*ONOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1804691:
+- '*ONNO2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1807053:
+- '*OCH2CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1820101:
+- '*H'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1821418:
+- '*OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1823852:
+- '*CN'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1824849:
+- '*NH2NH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1832697:
+- '*COCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1851901:
+- '*CH2CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1852707:
+- '*CHCH2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1867018:
+- '*NO'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1890086:
+- '*N2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1910260:
+- '*CHOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1923848:
+- '*COCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+1928879:
+- '*ONOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1933242:
+- '*NH2N(CH3)2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1943406:
+- '*NO3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+1943472:
+- '*OHNH2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1968111:
+- '*CH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+1987953:
+- '*CCHOH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+1992803:
+- '*ONN(CH3)2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+1999417:
+- '*CCH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2006138:
+- '*NHNH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+2011756:
+- '*OCH2CHOH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2057203:
+- '*CCHOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+2074978:
+- '*NH2N(CH3)2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2102503:
+- '*CO'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2106266:
+- '*CCH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+2125914:
+- '*CH4'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2127581:
+- '*CH3'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2149880:
+- '*OH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+2172731:
+- '*CCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+2175052:
+- '*NH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+2188507:
+- '*ONNO2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2202532:
+- '*CCO'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2215878:
+- '*CH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2243812:
+- '*CH2OH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2244455:
+- '*N2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2245015:
+- '*NH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2267875:
+- '*CH2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2277754:
+- '*CHCO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2279002:
+- '*NH2NH2'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2281142:
+- '*CHOHCH3'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+2291923:
+- '*CHOCHOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+2322601:
+- '*ONOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+2323176:
+- '*CH'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2328574:
+- '*OHNH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+2339242:
+- '*CH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+2378322:
+- '*C*C'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt
+2389607:
+- '*NH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Pt
+2421852:
+- '*CH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Pt
+2434159:
+- '*OCH3'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2461230:
+- '*H'
+- !!python/tuple
+  - 2
+  - 2
+  - 1
+- Pt
+2486224:
+- CH2*CO
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+2490583:
+- '*CH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Pt
+2498808:
+- '*H'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Pt

@@ -1,0 +1,798 @@
+256013:
+- '*H'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+435477:
+- '*COH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+435547:
+- '*COHCHO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+477795:
+- '*COH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+504238:
+- '*NO2NO2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+517833:
+- '*NONH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+526263:
+- '*C*C'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+546098:
+- '*COCH2O'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+561421:
+- '*N2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+582566:
+- '*CH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+587003:
+- '*ONN(CH3)2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+588184:
+- '*OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+596558:
+- '*NO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+640878:
+- '*CH*CH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+654549:
+- '*CCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+683851:
+- '*CH2CH2OH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+724957:
+- '*CH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+733628:
+- '*N*NO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+740910:
+- '*NONH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+788775:
+- '*COH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+789402:
+- '*CH*CH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+823913:
+- '*CH2CH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+836984:
+- '*OCH2CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+841662:
+- '*ONOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+858234:
+- '*CCHO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+893885:
+- '*OHNH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+942436:
+- '*CCH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+958071:
+- '*CCHOH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+965758:
+- '*CH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1002338:
+- '*CCH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1044471:
+- '*CH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1096113:
+- '*CHO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1155929:
+- '*OHCH2CH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1167709:
+- '*CH2CH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1207138:
+- '*COCHO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1214380:
+- '*NONH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1219460:
+- '*ONOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1224507:
+- '*N'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1226631:
+- '*ONNH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1232285:
+- '*CCHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1233177:
+- '*CH*COH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1241806:
+- '*C'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1264106:
+- '*COHCHO'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1269626:
+- '*OHCH2CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1280386:
+- '*NH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1295912:
+- '*ONOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1300190:
+- '*NO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1317230:
+- '*CHCO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1320602:
+- '*C'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1321018:
+- '*O'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1366311:
+- '*CHOHCH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1388086:
+- '*OCHCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1405929:
+- '*CHOCHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1441788:
+- '*OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1443910:
+- '*COH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1476390:
+- '*NO2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1551761:
+- '*CHO'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1560847:
+- CH2*CO
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1561227:
+- '*CH2*O'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1588964:
+- '*CHCHOH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1604150:
+- '*OCHCH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1616205:
+- '*OCHCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1626107:
+- '*NH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1678541:
+- '*CCH3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1703997:
+- '*CH2*CH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1719959:
+- CH2*CO
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1725620:
+- '*C*C'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1740073:
+- '*CH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1781114:
+- '*NONH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1795095:
+- '*CH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1799580:
+- '*OHCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1822140:
+- '*CHOHCH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1828616:
+- '*CCH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+1844343:
+- CH2*CO
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1846594:
+- '*O'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1847154:
+- '*CCH2OH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+1886849:
+- '*CHOHCH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1922568:
+- '*NH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1959294:
+- '*COH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1962010:
+- '*O'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1968363:
+- '*N'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+1968616:
+- '*ONH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+1999767:
+- '*CHOHCH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2002116:
+- '*NO3'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2004971:
+- '*CH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2019618:
+- '*CH2*CH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2023376:
+- '*C'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2027607:
+- '*CCH2OH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+2029071:
+- '*COHCH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2077329:
+- '*CCH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+2089970:
+- '*C*C'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2104750:
+- '*N*NO'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2116280:
+- '*CCHO'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2125362:
+- '*OH2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2129906:
+- '*C'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+2140564:
+- '*N*NH'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2194463:
+- '*CH4'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2200704:
+- '*C*C'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2208021:
+- '*CHOH'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+2253999:
+- '*ONN(CH3)2'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2261695:
+- '*CHO*CHO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+2262870:
+- '*ONH'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+2264892:
+- '*COCHO'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2267104:
+- '*NH2N(CH3)2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2270298:
+- '*COHCOH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2281324:
+- '*CO'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+2283313:
+- '*N*NH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2337425:
+- '*OCH3'
+- !!python/tuple
+  - 1
+  - 1
+  - 1
+- Cu
+2348955:
+- '*CHCO'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+2384729:
+- '*CH2'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2398418:
+- '*H'
+- !!python/tuple
+  - 1
+  - 1
+  - 0
+- Cu
+2420137:
+- '*CHCH2'
+- !!python/tuple
+  - 1
+  - 0
+  - 0
+- Cu
+2436057:
+- '*CH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
+2475926:
+- '*CH'
+- !!python/tuple
+  - 2
+  - 1
+  - 0
+- Cu
