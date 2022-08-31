@@ -6,8 +6,8 @@
 #SBATCH --job-name=exocp
 #SBATCH --mem=100GB
 #SBATCH --ntasks=1
-#SBATCH --error=error_main.log
-#SBATCH --output=output_main.log
+#SBATCH --error=error.log
+#SBATCH --output=output.log
 
 source activate ocp-models
-python -u ocp_extract.py
+python ocp_extract_val.py

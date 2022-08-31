@@ -23,67 +23,33 @@ mat_proj_id = {
     "Ag":'mp-124', # fcc
     "Co":'mp-102', # hcp
 }
-
-for metal, mpid in mat_proj_id:
+metal_sids = {}
+for metal, mpid in mat_proj_id.items():
+    count = 0
+    for key, value_dict in data_dict.items():
+        if value_dict['bulk_mpid'] == mpid:
+            count +=1
+            print(key, value_dict['ads_symbols'], value_dict['ads_id'], value_dict['miller_index'], )
+            # make dictionary of the symbols (e.g. *CH3) miller indices and metal with the "randomXXXXXXX" ID tag
+            metal_sids.update({int(key.replace('random','')):(value_dict['ads_symbols'], value_dict['miller_index'], metal)})
+    print(f"{count} metal species found for metal {metal}")
     
-    
-count = 0
-pt_sids = {}
-for key, value_dict in data_dict.items():
-    if value_dict['bulk_mpid'] == 'mp-126':
-        count +=1
-        print(key, value_dict['ads_symbols'], value_dict['ads_id'], value_dict['miller_index'])
-        # make dictionary of the symbols (e.g. *CH3) and miller indices with the "randomXXXXXXX" ID tag
-        pt_sids.update({int(key.replace('random','')):(value_dict['ads_symbols'], value_dict['miller_index'])})
-print(f"{count} Pt species found")
-
-
-count = 0
-cu_sids = {}
-for key, value_dict in data_dict.items():
-    if value_dict['bulk_mpid'] == 'mp-30':
-        count +=1
-        print(key, value_dict['ads_symbols'], value_dict['ads_id'], value_dict['miller_index'])
-        # make dictionary of the symbols (e.g. *CH3) with the "randomXXXXXXX" ID tag
-        cu_sids.update({int(key.replace('random','')):(value_dict['ads_symbols'], value_dict['miller_index'])})
-print(f"{count} Cu species found")
-
-ni_sids = {}
-for key, value_dict in data_dict.items():
-    if value_dict['bulk_mpid'] == 'mp-23':
-        count +=1
-        print(key, value_dict['ads_symbols'], value_dict['ads_id'], value_dict['miller_index'])
-        # make dictionary of the symbols (e.g. *CH3) with the "randomXXXXXXX" ID tag
-        ni_sids.update({int(key.replace('random','')):(value_dict['ads_symbols'], value_dict['miller_index'])})
-print(f"{count} Ni species found")
-
-
 
 dataset = LmdbDataset({"src": "/work/westgroup/opencatalyst/ocp/data/is2re/all/train/data.lmdb"})
 print("Size of the dataset created:", len(dataset))
 
 
-# parse data and pull the info for Cu, Ni, Pt species identified
-pt_dict = {}
-cu_dict = {}
-ni_dict = {}
+# parse data and pull the info for species identified
+metal_dict = {}
 for data in dataset:
-    if int(data.sid) in list(pt_sids.keys()):
-        data["miller_index"] = pt_sids[data.sid][1]
-        pt_dict[data.sid] = data.to_dict()
-    elif int(data.sid) in list(cu_sids.keys()):
-        data["miller_index"] = cu_sids[data.sid][1]
-        cu_dict[data.sid] = data.to_dict() 
-    elif int(data.sid) in list(ni_sids.keys()):
-        data["miller_index"] = ni_sids[data.sid][1]
-        ni_dict[data.sid] = data.to_dict()
+    if int(data.sid) in list(metal_sids.keys()):
+        print(f"{data.sid} match! {metal_sids[data.sid][:]}")
+        data["ads_symbol"] = metal_sids[data.sid][0]
+        data["miller_index"] = metal_sids[data.sid][1]
+        data["metal"] = metal_sids[data.sid][2]
+        metal_dict[data.sid] = data.to_dict()
 
 
-with open('Pt111_species.pkl', 'wb') as f:
-    pickle.dump(pt_dict, f)
-    
-with open('Cu111_species.pkl', 'wb') as f:
-    pickle.dump(cu_dict, f)
+with open('metal_species.pkl', 'wb') as f:
+    pickle.dump(metal_dict, f)
 
-with open('Ni111_species.pkl', 'wb') as f:
-    pickle.dump(ni_dict, f)
