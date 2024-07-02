@@ -1,0 +1,93 @@
+#main script
+rxn_expressions = [
+#propene adsorption
+'C3H6_g + *_s <-> CH3CHCH2_s',								#1
+#dehydrogenation steps
+'CH3CHCH2_s + OH_s <-> CH2-H--OHCHCH2_s+ *_s <-> CH2CHCH2_s + H2O_g + *_s',		#2
+'CH3CHCH2_s + O_s <-> CH2-H--OCHCH2_s + *_s <-> CH2CHCH2_s + OH_s',			#3
+'CH3CHCH2_s + *_s <-> CH2-HCHCH2_s + *_s <-> CH2CHCH2_s + H_s',				#4
+
+'CH2CHCH2_s + OH_s <-> CH2CHCH-H--OH_s + *_s <-> CHCHCH2_s + *_s + H2O_g',		#5
+'CH2CHCH2_s + O_s <-> CH2CHCH-H--O_s + *_s <-> CHCHCH2_s + OH_s',			#6
+'CH2CHCH2_s + *_s <-> CH2CHCH-H_s + *_s <-> CHCHCH2_s + H_s',				#7
+
+'CHCHCH2_s + OH_s <-> CH2CHC-H--OH_s + *_s <-> CCHCH2_s + *_s + H2O_g',			#8
+'CHCHCH2_s + O_s <-> CH2CHC-H--O_s + *_s <-> CCHCH2_s + OH_s',				#9
+'CHCHCH2_s + *_s <-> C-HCHCH2_s + *_s <-> CCHCH2_s + H_s',				#10
+
+'CCHCH2_s + OH_s <-> CCHCH-H--OH_s + *_s <-> CHCHC_s + *_s + H2O_g',			#11
+'CCHCH2_s + O_s <-> CCHCH-H--O_s + *_s <-> CHCHC_s + OH_s',				#12
+'CCHCH2_s + *_s <-> CCHCH-H_s + *_s <-> CHCHC_s + H_s',					#13
+
+'CHCHC_s + OH_s <-> CHC-H--OHC_s + *_s <-> CHCC_s + *_s + H2O_g',			#14
+'CHCHC_s + O_s <-> CHC-H--OC_s + *_s <-> CHCC_s + OH_s',				#15
+'CHCHC_s + *_s <-> CHC-HC_s + *_s <-> CHCC_s + H_s',					#16
+#C-O coupling
+'CHCC_s + O_s <-> CHCC-O_s + *_s <-> COCCH_s + *_s',					#17
+#split first C-C bond
+'COCCH_s + *_s <-> COC-CH_s + *_s <-> COC_s + CH_s',					#18
+'COCCH_s + *_s <-> CHC-CO_s + *_s <-> CHC_s + CO_s',                                    #19
+'CHCC_s + *_s <-> CHC-C_s + *_s <-> CHC_s + C_s',                                       #20
+#C-O/C-OH coupling
+'CHC_s + O_s <-> CHC-O_s + *_s <-> CHCO_s + *_s',					#21
+'CHC_s + OH_s <-> CH-OHC_s + *_s <-> CHOHC_s + *_s',                                    #22		
+#dehydrogenation steps
+'CHCO_s + *_s<-> C-HCO_s + *_s <-> COC_s + H_s',					#23
+'CHCO_s + O_s <-> C-H--OCO_s + *_s <-> COC_s + OH_s',					#24
+'CHOHC_s + *_s <-> C-HOHC_s + *_s <-> CCOH_s + H_s',					#25
+'CCOH_s + *_s <-> CCO-H_s + *_s <-> COC_s + H_s',					#26
+'CCOH_s + O_s <-> CCO-H--O_s + *_s <-> COC_s + OH_s',					#27
+#split second C-C bond
+'COC_s + *_s <-> C-CO_s + *_s <-> C_s + CO_s',						#28
+'CHCO_s + *_s<-> CH-CO_s + *_s <-> CH_s + CO_s',                                        #29
+#dehydrogenation steps
+'CH_s + *_s <-> C-H_s + *_s <-> C_s + H_s',                                             #30
+'CH_s + O_s <-> C-H--O_s + *_s <-> C_s + OH_s',                                         #31
+#C-O coupling
+'C_s + O_s <-> C-O_s + *_s <-> CO_s + *_s',						#32
+'CO_s + O_s <-> CO-O_s + *_s <-> CO2_g + *_s + *_s',					#33
+#O dissociative adsorption
+'O2_g + 2*_s <-> O_s + O_s',								#34
+#OH formation
+'O_s + H_s <-> O-H_s + *_s <-> OH_s + *_s',                                             #35
+#water formation
+'OH_s + OH_s <-> OH-H-O_s + *_s <-> H2O_g + O_s + *_s',					#36
+'OH_s + H_s <-> HO-H_s + *_s <-> H2O_g + *_s + *_s',					#37
+#inert gas
+'N2_g <-> N2_g',									#38
+
+]
+
+gas_thermo_mode       = 'shomate_gas'
+adsorbate_thermo_mode = 'harmonic_adsorbate'
+
+species_definitions = {}
+species_definitions['C3H6_g'] = {'concentration':0.0015}
+species_definitions['O2_g'] = {'concentration':0.03}
+species_definitions['H2O_g'] = {'concentration':0.1}
+species_definitions['CO2_g'] = {'concentration':0.00001}
+species_definitions['N2_g'] = {'concentration':0.86849}
+species_definitions['s'] = {'site_names':['211'], 'total':1.0}
+
+surface_names = ['Pd']
+scaler = 'ThermodynamicScaler'
+descriptor_names = ['temperature','pressure']
+descriptor_ranges = [[400,600],[1,1]]
+resolution = [11,1]
+data_file = 'dehydrogenation.pkl'
+input_file = 'energies.txt'
+
+estimate_frequencies = True
+
+decimal_precision = 200
+tolerance = 1e-50
+max_tolerance_iterations = 100
+max_rootfinding_iterations = 100
+max_bisections = 3
+
+rxn_mechanisms = {
+	'non-assisted' :[34,34,34,34,'half34',1,4,7,10,13,16,17,19,21,23,35,35,35,35,35,35,28,32,33,33,33,36,36,36], 
+	'O-assisted' :[34,34,34,34,'half34',1,3,6,9,12,15,17,19,21,24,28,32,33,33,33,36,36,36], 
+}
+
+

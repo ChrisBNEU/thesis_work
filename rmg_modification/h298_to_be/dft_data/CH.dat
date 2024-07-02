@@ -1,0 +1,8 @@
+name = 'CH_ads'
+DFT_energy = [-377891.21300006, 'eV']
+ZPE_energy = [0.375, 'eV']
+frequencies=[404,413.5,612.3,791.8,791.9,3032.6,'cm-1']
+gas_DFT_energy = [-270.16718889, 'eV']
+gas_ZPE_energy = [0.221, 'eV']
+composition = {'H':1, 'C':1, 'N':0, 'O':0, 'Pt':1}
+sites = 1
