@@ -1,0 +1,10 @@
+name = 'CHCHC-tri_ads'
+composition = {'H':2, 'C':3, 'N':0, 'O':0, 'Pt':1}
+DFT_energy = [-378423.466719066, 'eV']
+ZPE_energy = [0.97, 'eV']
+gas_DFT_energy = [-803.784682743549, 'eV']
+gas_ZPE_energy = [0.89, 'eV']
+sites = 1
+frequencies = [227.1,262.5,342.8,433.3,477.5,566.5,705.1,769.6,897.7,1078.1,1145.9,1240.4,1332.7,3073.5,3099.4,'cm-1']
+BEE = []
+gas_BEE = []

@@ -1,0 +1,10 @@
+name = 'CH2CHO-tri_ads'
+composition = {'H':3, 'C':2, 'N':0, 'O':1, 'Pt':3}
+DFT_energy = [-378760.7015, 'eV']
+ZPE_energy = [1.225, 'eV']
+frequencies= [15.9,130.0,138.8,157.1,211.1,476.8,533.8,735.4,870.8,980.4,1068.0,1148.8,1362.1,1418.7,1536.4,2915.1,2977.1,3083.2,'cm-1']
+gas_DFT_energy = [-1142.540988, 'eV']
+gas_ZPE_energy = [1.145, 'eV']
+sites = 3
+BEE = []
+gas_BEE = []

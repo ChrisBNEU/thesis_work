@@ -34,27 +34,7 @@ catalystProperties(
     scalingMethod='advanced', 
     surfaceSiteDensity=(3.148e-9, 'mol/cm^2'), # values for Ni(111)
 )
-                        
-# catalystProperties( # default values for Cu(111) calculated by Katrin Blondal and Bjarne Kreitz at Brown University
-#     bindingEnergies = {
-#                        'C':(-4.96033553, 'eV/molecule'),
-#                        'O':(-4.20763879, 'eV/molecule'),
-#                        'N':(-3.58446699, 'eV/molecule'),
-#                        'H':(-2.58383235, 'eV/molecule'),
-#                        },
-#     surfaceSiteDensity=(2.943e-9, 'mol/cm^2'),  # from Katrin
-#     coverageDependence=True,
 
-# )
-# catalystProperties( # Rh111
-#     bindingEnergies = {
-#                        'C':(-6.568, 'eV/molecule'),
-#                        'O':(-4.610, 'eV/molecule'),
-#                        'N':(-4.352, 'eV/molecule'),
-#                        'H':(-2.479, 'eV/molecule'),
-#                        },
-#     surfaceSiteDensity=(2.72e-9, 'mol/cm^2'),
-# )
 
 # List of species
 species(
@@ -680,36 +660,3 @@ forbidden(
 #         """
 #     )
 # )
-# forbidden(
-#     label='c2h6X',
-#     structure=adjacencyList(
-#         """
-#         1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-#         2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-#         3 H u0 p0 c0 {1,S}
-#         4 H u0 p0 c0 {1,S}
-#         5 H u0 p0 c0 {1,S}
-#         6 H u0 p0 c0 {2,S}
-#         7 H u0 p0 c0 {2,S}
-#         8 H u0 p0 c0 {2,S}
-#         9 X u0 p0 c0
-#         """
-#     )
-# )
-# forbidden(
-#     label='c2h6',
-#     structure=adjacencyList(
-#         """
-#         1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-#         2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-#         3 H u0 p0 c0 {1,S}
-#         4 H u0 p0 c0 {1,S}
-#         5 H u0 p0 c0 {1,S}
-#         6 H u0 p0 c0 {2,S}
-#         7 H u0 p0 c0 {2,S}
-#         8 H u0 p0 c0 {2,S}
-#         """
-#     )
-# )
-
-
