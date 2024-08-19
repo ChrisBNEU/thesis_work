@@ -1,59 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-
-import sys
-sys.path.append('/work/westgroup/ChrisB/_04_thesis/rmg_thesis/RMG-Py/')
-print(sys.path)
-
-
-import os
-import shutil
-import sys
-import itertools
-
-from rmgpy.chemkin import load_chemkin_file
-from rmgpy.data.surface import MetalPropertyLibrary, SitePropertyLibrary, MetalPropertyDatabase, SitePropertyDatabase
-from rmgpy.data.thermo import ThermoDatabase
-
-
-# ## verify that the metalproperties databases load correctly
-mpdb = MetalPropertyDatabase()
-spdb = SitePropertyDatabase()
-path = '/work/westgroup/ChrisB/_04_thesis/rmg_thesis/RMG-database/input/surface/'
-mpdb.load(path)
-spdb.load(path)
-
-
-# ## check combinatorial number of sites possible
-coords_111 = spdb.get_all_coordination_numbers_on_facet('111')
-coords_100 = spdb.get_all_coordination_numbers_on_facet('100')
-
-sites_111 = list(spdb.get_all_coordination_numbers_on_facet('111').keys())
-list_of_sites = []
-for item in itertools.combinations_with_replacement(sites_111, 2):
-    list_of_sites.append(item)
-list_of_sites
-
-
-# get the metal atom number for each site (number of metal atoms bound atom attaches to) 
-metal_atom_number = spdb.get_all_metal_atoms_on_facet('111')
-max_ma = max(metal_atom_number.values())
-max_ma_site = [k for k, v in metal_atom_number.items() if v == max(metal_atom_number.values())]
-cns_max_ma = {k:coords_111[k] for k in max_ma_site}
-min(cns_max_ma, key=cns_max_ma.get)
-
-
-#load the thermodynamics database
-thermoDatabase = ThermoDatabase()
-libraries = ['surfaceThermoPt111']
-if sys.platform == "darwin":
-    thermoDatabase.load(path="/Users/blais.ch/Documents/_01_code/RMG_env_1/RMG-database/input/thermo", libraries = libraries)
-else: 
-    thermoDatabase.load(path='/work/westgroup/ChrisB/_04_thesis/rmg_thesis/RMG-database/input/thermo', libraries = libraries)
-
-thermoDatabase.load_surface()
-
 def get_pref_site(species, metal_atoms, cn_nums, bound_atom, bonds):
     """
     gets the preferred site for a single adatom
@@ -91,11 +37,11 @@ def get_pref_site(species, metal_atoms, cn_nums, bound_atom, bonds):
     if len(poss_sites) == 1:
         site = poss_sites[0]
 
-    elif len(poss_sites) > 1:
-        ma_site = [k for k, v in metal_atoms.items() if v == pref_site]
+    elif len(poss_sites1) > 1:
+        ma_site = [k for k, v in metal_atoms1.items() if v == pref_site1]
 
         # get the coordination numbers corresponding to the max ma sites
-        cns_ma = {k:cn_nums[k] for k in ma_site}
+        cns_ma = {k:cn_nums1[k] for k in ma_site1}
         site = min(cns_ma, key=cns_ma.get)
 
     # no sites found, see if it is larger than max sites.
@@ -137,7 +83,8 @@ def get_sites(species, metal_atoms1, cn_nums1, metal_atoms2, cn_nums2):
                         if atom.is_oxygen() and bond.is_single():
                             count_oh += 1
                         else: 
-                            count_cr += bond.get_order_num()
+                            groups_xm.append(4.)
+                            count_r += bond.get_order_num()
                             
                 if count_coh > 0:
                     xm1 = 5
@@ -160,9 +107,9 @@ def get_sites(species, metal_atoms1, cn_nums1, metal_atoms2, cn_nums2):
                 if len(atom.site) > 0:
                     site1 = atom.site
                 else: 
-                    site1 = get_pref_site(species, metal_atoms1, cn_nums1, bound_atom, bonds)
+                    site1 = self.get_pref_site(species, metal_atoms1, cn_nums1, bound_atom, bonds)
                 
-                site2 = get_pref_site(species, metal_atoms2, cn_nums2, bound_atom, bonds)
+                site2 = self.get_pref_site(species, metal_atoms2, cn_nums2, bound_atom, bonds)
 
             sites[bound_atom] = {"site1": site1, "site2": site2, "alpha" : alpha}
 
@@ -191,18 +138,18 @@ def correct_binding_energies_extended(thermo, species, metal_to_scale_from=None,
         raise ValueError("If you are scaling, you must specify both the metal and the facet to scale from and to.")
 
     # get the required attributes for every facet and metal involved
-    cn1_dict = thermoDatabase.surface['site_properties'].get_all_coordination_numbers_on_facet(facet_to_scale_from)
-    cn2_dict = thermoDatabase.surface['site_properties'].get_all_coordination_numbers_on_facet(facet_to_scale_to)
+    cn1_dict = self.surface['site_properties'].get_all_coordination_numbers_on_facet(facet_to_scale_from)
+    cn2_dict = self.surface['site_properties'].get_all_coordination_numbers_on_facet(facet_to_scale_to)
 
-    ma1_dict = thermoDatabase.surface['site_properties'].get_all_metal_atoms_on_facet(facet_to_scale_from)
-    ma2_dict = thermoDatabase.surface['site_properties'].get_all_metal_atoms_on_facet(facet_to_scale_to)
+    ma1_dict = self.surface['site_properties'].get_all_metal_atoms_on_facet(facet_to_scale_from)
+    ma2_dict = self.surface['site_properties'].get_all_metal_atoms_on_facet(facet_to_scale_to)
 
-    psi1 = thermoDatabase.surface['metal_properties'].get_psi(metal_to_scale_from)
-    psi2 = thermoDatabase.surface['metal_properties'].get_psi(metal_to_scale_to)
+    psi1 = self.surface['metal_properties'].get_psi(metal_to_scale_from)
+    psi2 = self.surface['metal_properties'].get_psi(metal_to_scale_to)
 
     # determine the preferred sites for the species on each surface
     # only call once so we can link the sites
-    surf_sites = get_sites(species, ma1_dict, cn1_dict, ma2_dict, cn2_dict)
+    surf_sites = self.get_sites(species, ma1_dict, cn1_dict, ma2_dict, cn2_dict)
 
     # check for vdw
     if not surf_sites or len(surf_sites) == 0: 
@@ -260,7 +207,7 @@ surf_species.generate_resonance_structures()
 # display(surf_species)
 spec_thermo = surf_species.thermo.to_thermo_data()
 surf_species.thermo = spec_thermo
-thermo_list = thermoDatabase.get_all_thermo_data(surf_species)
+thermo_list = self.get_all_thermo_data(surf_species)
 E_ad_old = (spec_thermo.H298.value_si)/9.68e4
 
 new_thermo = correct_binding_energies_extended(spec_thermo, surf_species, metal_to_scale_from='Pt',

@@ -30,7 +30,8 @@ database(
 )
 
 catalystProperties(
-    metal='Cu111'
+    metal='Cu',
+    facet='111',
     scalingMethod='advanced', 
     surfaceSiteDensity=(3.148e-9, 'mol/cm^2'), # values for Ni(111)
 )
